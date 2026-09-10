@@ -21,7 +21,7 @@
 
 | 方式 | 链接 | 说明 |
 |---|---|---|
-| **官网** | [www.webfunny.com](https://www.webfunny.com) | 文档 / 案例 / 价格 |
+| **官网** | [www.webfunny.com](https://www.webfunny.com) | Demo / 文档 / 案例 / 价格 |
 | **私有化部署** | [查看部署文档](https://www.webfunny.com/des?desPath=deployment/server**id~~%e4%bb%a3%e7%a0%81%e9%83%a8%e7%bd%b2) | 支持 Docker 一键部署 |
 | **社区版** | [免费申请](https://webfunny.com/price?showFreeModal=community) | 私有化 / 免费 / 面向个人 |
 
