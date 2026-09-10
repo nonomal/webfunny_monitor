@@ -19,17 +19,11 @@
 
 ## 🚀 立刻体验
 
-> 🖥️ **在线 Demo**（无需注册）→ [点击直接体验](https://www.webfunny.cn/wf_center/main?accessChannel=github)　纯demo数据，即刻体验
->
-> 🎁 **免费社区版**（个人/小团队首选）→ [免费申请](https://webfunny.com/price?showFreeModal=community)　填写信息即可获取，免费私有化部署
->
-> 💼 **企业版试用**（30天全功能）→ [申请试用](https://webfunny.com/price?showFreeModal=test)　自行填写获取授权码
-
 | 方式 | 链接 | 说明 |
 |---|---|---|
-| **SaaS 云服务** | [国内服务](https://cloud.webfunny.com/wf_center/main) [海外服务](https://global.webfunny.com/wf_center/main) | 免费体验 |
-| **私有化部署** | [查看部署文档](https://www.webfunny.com/desMonitor) | 支持 Docker 一键部署 |
-| **官网** | [www.webfunny.com](https://www.webfunny.com) | 价格 / 文档 / 案例 |
+| **官网** | [www.webfunny.com](https://www.webfunny.com) | 文档 / 案例 / 价格 |
+| **私有化部署** | [查看部署文档](https://www.webfunny.com/des?desPath=deployment/server**id~~%e4%bb%a3%e7%a0%81%e9%83%a8%e7%bd%b2) | 支持 Docker 一键部署 |
+| **社区版** | [免费申请](https://webfunny.com/price?showFreeModal=community) | 私有化 / 免费 / 面向个人 |
 
 ---
 
@@ -102,43 +96,14 @@
 
 ---
 
-## 🆚 对比 Sentry / 神策 / GrowingIO
-
-| | Webfunny | Sentry | 神策 / GrowingIO |
-|---|---|---|---|
-| 前端错误监控 | ✅ | ✅ | ❌ |
-| 前端性能监控 | ✅ 更全面 | 🟡 基础 | ❌ |
-| APM 后端监控 | ✅ 链路追踪、慢SQL、JVM | 🟡 基础 | ❌ |
-| 用户行为细查 | ✅ 超全面 | 🟡 仅错误相关 | ✅ |
-| 业务埋点 & 漏斗 | ✅ | ❌ | ✅ |
-| 私有化部署 | ✅ 一键部署 | 🟡 复杂、硬件要求高 | 🟡 价格考量 |
-| 源码购买 | ✅ | ❌ | ❌ |
-
----
 
 ## ⚡ 快速安装
 
 ### Docker 安装（推荐）
 
-```bash
-# 详细步骤见文档
-docker-compose up -d
-```
 
 [👉 查看完整 Docker 部署文档](https://www.webfunny.com/des?desPath=deployment/server**id~~docker%e5%ae%b9%e5%99%a8%e5%8c%96%e9%83%a8%e7%bd%b2)
 
-### 本地安装
-
-```bash
-git clone https://github.com/a597873885/webfunny_monitor.git
-cd webfunny_monitor
-npm install && npm run bootstrap
-npm install pm2 -g  # 已安装可跳过
-npm run prd
-# 本地访问 http://localhost:9010/wf_center/main
-```
-
-[👉 查看服务器部署文档](https://www.webfunny.com/des?desPath=deployment/server**id~~%e4%bb%a3%e7%a0%81%e9%83%a8%e7%bd%b2)　　[👉 查看历史版本](https://www.webfunny.com/version_cluster)
 
 ---
 
